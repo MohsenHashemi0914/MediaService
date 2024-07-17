@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF59EE8F-7B30-498C-B0D7-4329922DECCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media", "Media\Media.csproj", "{5E264A47-0D15-4618-BBED-B91A19427155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Media", "Media\Media.csproj", "{BD73D7B8-FB88-4B54-B2C8-B72E3B4E8C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E264A47-0D15-4618-BBED-B91A19427155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E264A47-0D15-4618-BBED-B91A19427155}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E264A47-0D15-4618-BBED-B91A19427155}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E264A47-0D15-4618-BBED-B91A19427155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD73D7B8-FB88-4B54-B2C8-B72E3B4E8C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD73D7B8-FB88-4B54-B2C8-B72E3B4E8C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD73D7B8-FB88-4B54-B2C8-B72E3B4E8C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD73D7B8-FB88-4B54-B2C8-B72E3B4E8C48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5E264A47-0D15-4618-BBED-B91A19427155} = {EF59EE8F-7B30-498C-B0D7-4329922DECCF}
+		{BD73D7B8-FB88-4B54-B2C8-B72E3B4E8C48} = {EF59EE8F-7B30-498C-B0D7-4329922DECCF}
 	EndGlobalSection
 EndGlobal
