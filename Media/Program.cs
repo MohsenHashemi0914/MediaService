@@ -2,12 +2,12 @@ using MassTransit;
 using Media;
 using Media.Infrastructure.Context;
 using Media.Infrastructure.Extensions;
-using Media.Infrastructure.IntegrationEvents;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Minio;
 using Minio.DataModel.Args;
 using System.Net;
+using SystemDesign.InternalEvents.Media;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -114,7 +114,7 @@ app.MapGet("/{token_id:guid:required}", async ([FromRoute(Name = "token_id")] Gu
     {
         throw;
     }
-    
+
 }).DisableAntiforgery();
 
 app.Run();
